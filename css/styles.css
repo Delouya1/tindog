@@ -36,7 +36,7 @@ p{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 1%;
 }
 
 
@@ -137,5 +137,45 @@ padding-bottom: 3%;
 }
 .pricing-col{
     padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .dog-tinder-prof{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
+
+
+/*Call to Action*/
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+
+
+}
+.cta-h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 3;
+
+}
+
+/*Footer Section*/
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+.social-icons{
+    position: center;
+    margin: 20px 10px;
 }
 
