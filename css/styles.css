@@ -154,6 +154,9 @@ padding-bottom: 3%;
         position: static;
         transform: rotate(0);
     }
+    .testimonial-text{
+        font-size:medium;
+    }
 
 }
 
